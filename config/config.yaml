@@ -1,0 +1,16 @@
+api:
+  base_url: https://openlibrary.org
+  search_endpoint: /search.json?q={subject}&page={page}
+
+  authors:
+    author_details: /authors/{author_key}.json
+    author_works: /authors/{author_key}/works.json
+    work_details: /works/{work_key}.json
+
+subjects:
+  - data engineering
+  - databases
+  - machine learning
+  - algorithms
+
+max_pages: 1
