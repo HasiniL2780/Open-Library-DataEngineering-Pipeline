@@ -11,7 +11,7 @@ def get_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Hasini@2780",
+        password="",
         database="openlibrary"
     )
 
